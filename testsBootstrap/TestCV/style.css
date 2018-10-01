@@ -1,0 +1,30 @@
+body{
+  background-image: url(/assets/IMG/IMG_AP_background800x533.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+#black{
+  background-color: black;
+  color:blue;
+  }
+
+#blue{
+  background-color: blue;
+  color:black;
+}
+.logo{
+  width: 30%;
+  height: 30%;
+}
+
+#green{
+  background-color:green;
+}
+
+#red{
+  background-color: red;
+}
+
+#yellow{
+  background-color: yellow;
+}

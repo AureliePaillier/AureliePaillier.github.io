@@ -1,0 +1,35 @@
+body {
+  background-image: url("../IMG/back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color:black;
+}
+p, ul {
+  font-size: 20px;
+}
+.identite_et_contact{
+  color: blue;
+  background-color: black;
+  position: fixed;
+}
+.identité {
+  height: 15em;
+  width: 10em;
+  margin-top: 5%;
+}
+.logo {
+  width: 2em;
+  height: 2em;
+}
+.background {
+  background-color: rgba(213,211,211,0.7);
+  margin-top: 1%;
+  background-size: cover;
+  display: block;
+  margin-left: auto;
+  margin:right:auto;
+}
+h3{
+  text-align: center;
+}
