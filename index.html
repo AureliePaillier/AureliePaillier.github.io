@@ -5,194 +5,278 @@
   <meta charset="utf-8"/>
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
   <link rel="stylesheet" href="assets/CSS/style.css"/>
-  <title>CV Aurélie Paillier (Bootstrap)</title>
+  <title> CV Aurélie Paillier (Bootstrap) </title>
 </head>
 <body>
-  <div class="container">
-    <!-- un seul container, fluid pour qu'il occupe totalement la largeur de la page -->
-  <div class="row">
-    <div class="col-12">
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <a class="navbar-brand" href="#"> Home </a>
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" href="#Competences"> Compétences </a>
-            <a class="nav-item nav-link" href="#EP"> Expérience professionnelle </a>
-            <a class="nav-item nav-link" href="#Stages"> Stages </a>
-            <a class="nav-item nav-link" href="#Formations"> Formations </a>
-            <a class="nav-item nav-link" href="#CursusG"> Cursus général </a>
-            <a class="nav-item nav-link" href="#Autres"> Autres </a>
+  <!-- un seul container, fluid pour qu'il occupe totalement la largeur de la page -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <a class="navbar-brand" href="#"> Home </a>
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="#Competences"> Compétences </a>
+              <a class="nav-item nav-link" href="#EP"> Expériences professionnelles </a>
+              <a class="nav-item nav-link" href="#Formations"> Formations </a>
+              <a class="nav-item nav-link" href="#CursusG"> Cursus général </a>
+              <a class="nav-item nav-link" href="#Stages"> Stages </a>
+              <a class="nav-item nav-link" href="#Autres"> Autres </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="row">
+      <div class="offset-1 col-lg-2 col-sm-12 identite_et_contact" id="text-shadow">
+        <img src="assets/IMG/trombine.jpg" class="identité"/>
+        <p><h1> Aurélie PAILLIER </h1></p>
+        <h2> Développeuse web junior </h2>
+        <p class="contact"> 41 ans </p>
+        <p class="contact"><img src="assets/IMG/LogoCar5.png" alt="Logo Car" class="logo"/> Permis B, véhiculée </p>
+        <p class="contact"><img src="assets/IMG/LogoTelephoneRetro.jpg" alt="Logo Téléphone" class="logo"/> 06 71 24 33 87 </p>
+        <p class="contact"><a href="mailto:aureliepaillier80@gmail.com" title="Lien vers mon adresse mail"><img src="assets/IMG/LogoGmail.png" alt="Logo Gmail" class="logo"/></a>
+        <a href="assets/PDF/CV_papier2.pdf" alt="CV en PDF"><img src="assets/IMG/LogoPdf.png" class="logo" alt="logo doc pdf" title="lien vers mon CV papier"/></a>
+        </p>
+        <p class="contact"> <a href="https://www.linkedin.com/in/aurélie-paillier-b8095a4a/"><img src="assets/IMG/LogoLinkedIn.png" class="logo" alt="logo LinkedIn" title="lien vers ma page linkedin"/></a>
+        <a href="https://github.com/AureliePaillier"><img src="assets/IMG/LogoGitHub.png" class="logo" alt="logo GitHub" title="lien vers ma page Github"/></a></p>
+      </div>
+      <div class="offset-1 col-lg-8 col-sm-12">
+        <div class="col-lg-12 background" id="Competences">
+          <h3><em> Compétences </em></h3>
+            <h4> Développement web </h4>
+          <strong><em> Languages </em></strong>
+          <p>
+            <div class="progress margin" style="height: 20px">
+              <div class="progress-bar bg-blue progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"><strong> HTML - 80% </strong></div>
+            </div>
+          </p>
+          <p>
+            <div class="progress margin" style="height: 20px">
+              <div class="progress-bar bg-blue progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"><strong> CSS - 80% </strong></div>
+            </div>
+          </p>
+          <p>
+            <div class="progress margin" style="height: 20px">
+              <div class="progress-bar bg-blue progress-bar-striped" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%"> <strong> JavaScript - 30% </strong></div>
+            </div>
+          </p>
+          <p>
+            <div class="progress margin" style="height: 20px">
+              <div class="progress-bar bg-blue progress-bar-striped" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%"><strong> PHP - 10% </strong></div>
+            </div>
+          </p>
+          <strong><em> Frameworks </em> </strong>
+          <p>
+            <div class="progress margin" style="height: 20px">
+              <div class="progress-bar bg-blue progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"><strong> Bootstrap - 50% </strong></div>
+            </div>
+          </p>
+          <p>
+            <div class="progress margin" style="height: 20px">
+              <div class="progress-bar bg-blue progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"><strong> AngularJS - 40% </strong></div>
+            </div>
+          </p>
+          <strong><em> Outils </em></strong>
+          <p>
+            <div class="progress margin" style="height: 20px">
+              <div class="progress-bar bg-blue progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><strong> Ligne de commande - 60% </strong></div>
+            </div>
+          </p>
+          <p>
+            <div class="progress margin" style="height: 20px">
+              <div class="progress-bar bg-blue progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"><strong> Media queries - 50% </strong></div>
+            </div>
+          </p>
+          <strong><em> Versioning </em></strong>
+          <p>
+            <div class="progress margin" style="height: 20px">
+              <div class="progress-bar bg-blue progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><strong> Git - 60% </strong></div>
+            </div>
+          </p>
+          <p>
+            <div class="progress margin" style="height: 20px">
+              <div class="progress-bar bg-blue progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><strong> Github - 60% </strong></div>
+            </div>
+          </p>
+          <strong><em> OS </em></strong>
+          <p>
+            <div class="progress margin" style="height: 20px">
+              <div class="progress-bar bg-blue progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><strong> Linux Ubuntu - 60% </strong></div>
+            </div>
+          </p>
+          <p>
+            <div class="progress margin" style="height: 20px">
+              <div class="progress-bar bg-blue progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"><strong> Windows XP/7/8 - 80% </strong></div>
+            </div>
+          </p>
+          <strong><em> Logiciels </em></strong>
+          <p>
+            <div class="progress margin" style="height: 20px">
+              <div class="progress-bar bg-blue progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><strong> logiciels libres - 60% </strong></div>
+            </div>
+          </p>
+          <p>
+            <div class="progress margin" style="height: 20px">
+              <div class="progress-bar bg-blue progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><strong> Microsoft Office suite - 60% </strong></div>
+            </div>
+          </p>
+          <strong><em> Editeurs de texte </em>  </strong>
+          <p>
+            <div class="progress margin" style="height: 20px">
+              <div class="progress-bar bg-blue progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"><strong> Nano - 50% </strong></div>
+            </div>
+          </p>
+          <p>
+            <div class="progress margin" style="height: 20px">
+              <div class="progress-bar bg-blue progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><strong> Atom - 60% </strong></div>
+            </div>
+          </p>
+          <strong><em> Tests unitaires </em></strong>
+          <p>
+            <div class="progress margin" style="height: 20px">
+              <div class="progress-bar bg-blue progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><strong> BDD-TDD - 60% </strong></div>
+            </div>
+          </p>
+          <strong><em> Bibliothèque </em> </strong>
+          <p>
+            <div class="progress margin" style="height: 20px">
+              <div class="progress-bar bg-blue progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><strong> JQuery - 60% </strong></div>
+            </div>
+          </p>
+          <strong><em> Traitement d'images et création graphique </em> </strong>
+          <p>
+            <div class="progress margin" style="height: 20px">
+              <div class="progress-bar bg-blue progress-bar-striped" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%"><strong> Adobe Photoshop / Gimp - 30% </strong></div>
+            </div>
+          </p>
+          <p>
+            <div class="progress margin" style="height: 20px">
+              <div class="progress-bar bg-blue progress-bar-striped" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%"><strong> Adobe Illustrator - 30% </strong></div>
+            </div>
+          </p>
+          <strong><em> Logiciels de gestion de base de données </em> </strong>
+          <p>
+            <div class="progress margin" style="height: 20px">
+              <div class="progress-bar bg-blue progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"><strong> Access - 50% </strong></div>
+            </div>
+          </p>
+          <p>
+            <div class="progress margin" style="height: 20px">
+              <div class="progress-bar bg-blue progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"><strong> FileMaker - 50% </strong></div>
+            </div>
+          </p><hr>
+            <h4> Autres </h4>
+          <strong><em> Conservation-Restauration </em></strong>
+            <p class="text"> Conservation préventive / Fabrication de boîtes de stockage, de supports / Conservation-Restauration métal, matériaux organiques, céramique / Moulage / Rédaction de rapports de conservation-restauration, d'un document contrat de prêt et constat d'état associé / Convoiement d'oeuvres et mise en exposition. </p><hr>
+          <strong><em> Médiation </em></strong>
+            <p class="text"> Création de supports pédagogiques et d'animation d'ateliers scolaires et grand public. </p><hr>
+          <strong><em> Photographie </em></strong>
+            <p class="text"> Prises de vues photographique d'un objet (avant-pendant-après restauration). </p><hr>
+          <strong><em> Langues </em></strong>
+            <!-- <p><em> Français </em> : Langue maternelle </p> -->
+            <p class="text"><em> Anglais </em> : TOEIC Listening and Reading 2017: 625 entre B1 et B2 </p>
+            <p class="text"><em> Espagnol / Italien</em> : A1 </p>
+          <hr>
+        </div>
+        <div><a name="EP"></a>
+          <div class="col-lg-12 background">
+            <div >
+              <h3><em> Expériences professionnelles </em></h3>
+                <h4> 2011-2017: CCE/CAD de Ribemont-sur-Ancre </h4>
+                  <p class="text"> Poste de Conservatrice-Restauratrice de mobilier archéologique spécialisée métaux. </p><hr>
+                <h4> 2010: MNHN de Paris </h4>
+                  <p class="text"> Conditionnement de types d'oiseaux. </p><hr>
+            </div>
           </div>
         </div>
-      </nav>
+        <div ><a name="Formations"></a>
+          <div class="col-lg-12 background">
+            <h3><em> Formations </em></h3>
+              <h4> Développement web </h4>
+                <span class="text">
+                  <p> 2018 : La Manu, l'Ecole des Métiers du Numérique,</br>
+                  Manufacture de compétences, Amiens.
+                  <p> Développeur-se de Sites et d'applications web, Préparation au Titre Professionnel "Développeur-se logiciel" RNCP 5927 niveau III, Bac+2, délivré par le Ministère chargé de l'emploi.</p><hr>
+                </span>
+              <h4> Autres </h4>
+              <strong><em> Conservation-Restauration </em></strong>
+                <span class="text">
+                  <p> 2008-2004 : HECR, La Chaux-de-Fonds (CH) </br>
+                      Objets archéologiques et ethnographiques. </p>
+                  <p> 2003-2000 : Ecole de Condé, Paris </br>
+                      Oeuvres d'Art, option céramique.
+                  </p><hr>
+                </span>
+              <strong><em> Paléoanthropologie </em></strong>
+                <span class="text">
+                  <p> 2008-2007 : Département Anthropologie / Ecologie, Université de Genève </br>
+                    Travaux pratiques.
+                  </p><hr>
+                </span>
+              <strong><em> Histoire de l'Art / Histoire / Histoire des religions </em></strong>
+                <span class="text">
+                  <p> 1998-1996 : Université de Poitiers </br>
+                      Antique, Médiévale, Moderne et Contemporaine (HA/H),
+                      Antique et Médiévale (HR)
+                  </p><hr>
+                </span>
+              <strong><em> Artistique </em></strong>
+                <span class="text">
+                  <p> 2000-1996 : Beaux-Arts, Atelier Art libre (Poitiers), Ateliers de Sèvres (Paris) </br>
+                    Dessin, peinture, modelage d'après modèle vivant, sculpture, moulage, arts plastiques, arts appliqués, infographie.
+                  </p><hr>
+                </span>
+            </div>
+          </div>
+        <div ><a name="CursusG"></a>
+          <div class="col-lg-12 background">
+            <h3><em> Cursus Général </em></h3>
+              <h4> 2010-2004 : HE-Arc Conservation-Restauration</h4>
+                <p>Conservatrice-Restauratrice HES orientation en objets archéologiques et ethnographiques, Mention "Bien": Sujet: <em> "Identification et mise en oeuvre d'un consolidant de surface et d'un adhésif appliqués sur deux poissons momifiés égyptiens".</em> Lieu : MNHN.
+                </p><hr>
+              <h4> 1996-1992 : Lycée d'enseignement général technique et agricole (L.E.G.T.A.) de Venours, Rouillé (86) </h4>
+                <p> Baccalauréat Technologique série Sciences et technologies de l'Agronomie et de l'Environnement (STAE), spécialité: technologies végétales.
+                </p><hr>
+          </div>
+          <div><a name="Stages"></a>
+            <div class="col-lg-12 background">
+              <h3><em> Stages </em></h3>
+                <h4> Conservation-Restauration </h4>
+                  <span class="text">
+                    <p> Métaux </p>
+                    <p> Momies animales & humaines </p>
+                    <p> Céramique / Verre / Moulage </p>
+                    <p> Pierre / Sculpture en plâtre / os </p>
+                    <p> Textile </p>
+                    <p> Peintures de chevalet </p><hr>
+                  </span>
+                <h4> Fouilles Archéologiques </h4>
+                  <span class="text">
+                    <p> Ancienne faiencerie du 18ème-19ème siècle </p>
+                    <p> Dolmens de Puyraveau, Néolithique </p>
+                    <p> Hauts-Fourneaux </p>
+                    <p> Nécropole Gallo-Romaine </p><hr>
+                  </span>
+            </div>
+          </div>
+            <div ><a name="Autres"></a>
+              <div class="col-lg-12 background">
+                <h3><em> Autres </em></h3>
+                  <h4> Publications </h4>
+                    <p> Paillier, A. Un exemple de conservation-restauration de momies animales. La lettre de l'OCIM, n°136, juillet-août 2011, pp. 21-25.</p>
+                    <p> Bou, C. et al.(co-auteur). Approche médico-légale et antthropologique par imagerie 3D   d'une momie d'enfant du Musée Ethnographique de Genève. Spectra Analyse, n°312, novembre 2016, pp. 31-39. </p><hr>
+                  <h4> Bénévolat </h4>
+                    <p> Recherche de connexions de tessons et remontage à sec de céramiques, dépôt de fouilles archéologiques, Poitiers (86);</p>
+                    <p> Animation d'atelier de création pour jeunes enfants, F.I.F.O. Ménigoute, coin junior C.P.I.E. </p><hr>
+                  <h4> Centres d'intérets </h4>
+                    <p> Culture , Arts, Sculpture, Nature, Photographie, Randonnée.</p><hr>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col-2 identite_et_contact">
-      <img src="assets/IMG/trombine.jpg" class="identité"/>
-      <p><h1> Aurélie PAILLIER </h1></p>
-      <h2> Développeuse web junior </h2>
-      <p> 41 ans </p>
-      <p><img src="assets/IMG/LogoCar5.png"alt="Logo Car"class="logo"/> Permis B, véhiculée</p>
-      <p><img src="assets/IMG/LogoTelephoneRetro.jpg" alt="Logo Téléphone"class="logo"/>06 71 24 33 87</p>
-      <p><img src="assets/IMG/LogoGmail.png" alt="Logo Gmail"class="logo"/><a href="mailto:aureliepaillier80@gmail.com" > aureliepaillier80@gmail.com</a></p>
-      <a href="https://www.linkedin.com/in/aurélie-paillier-b8095a4a/"><img src="assets/IMG/LogoLinkedIn.png" class="logo" alt="logo LinkedIn" title="lien vers mon linkedin"/></a>
-      <img src="assets/IMG/LogoGitHub.png" class="logo" alt="logo GitHub" title="lien vers mon Github"/><a href="https://github.com/"></a>
-    </div>
-    <div class="col-9 background"><a name="Competences"></a>
-      <h3> Compétences </h3>
-          <h4> Développement web </h4>
-            <strong> Languages </strong>
-              <p> HTML :
-                <div class="progress margin" style="height: 20px">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">40%</div>
-                </div>
-              </p>
-              <p> CSS :
-                <div class="progress margin" style="height: 20px">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">30%</div>
-                </div>
-              </p>
-              <p> JavaScript :
-                <div class="progress margin" style="height: 20px">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">30%</div>
-                </div>
-              </p>
-              <p> JQuery (Bibliothèque JavaScript):
-                <div class="progress margin" style="height: 20px">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%">10%</div>
-                </div>
-              </p>
-              <p> PHP :
-                <div class="progress margin" style="height: 20px">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%">10%</div>
-                </div>
-              </p>
-                  <strong> Framework </strong>
-              <p> Bootstrap :
-                <div class="progress margin" style="height: 20px">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%">10%</div>
-                </div>
-              </p>
-              <p> Media queries:
-                <div class="progress margin" style="height: 20px">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%">10%</div>
-                </div>
-              </p>
-                  <strong> Outils </strong>
-              <p> Ligne de commande :
-                <div class="progress margin" style="height: 20px">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">50%</div>
-                </div>
-              </p>
-              <p> Nano :
-                <div class="progress margin" style="height: 20px">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">50%</div>
-                </div>
-              </p>
-              <p> Atom :
-                <div class="progress margin" style="height: 20px">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">70%</div>
-                </div>
-              </p>
-              <p> Git :
-                <div class="progress margin" style="height: 20px">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">50%</div>
-                </div>
-              </p>
-              <p> Github :
-                <div class="progress margin" style="height: 20px">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">50%</div>
-                </div>
-              </p>
-          <h4> Informatique </h4>
-            <p> Linux Ubuntu / Windows XP-7-8 / logiciels libres / Microsoft Office / Adobe Photoshop / Gimp / Adobe Illustrator / Access / FileMaker. </p><hr>
-          <h4> Conservation-Restauration </h4>
-            <p> Conservation préventive / Fabrication de boîtes de stockage, de supports / Conservation-Restauration métal, matériaux organiques, céramique / Moulage / Rédaction de rapports de conservation-restauration, d'un document contrat de prêt et constat d'état associé / Convoiement d'oeuvres et mise en exposition. </p><hr>
-          <h4> Médiation </h4>
-            <p> Création de supports pédagogiques et d'animation d'ateliers scolaires et grand public. </p><hr>
-          <h4> Photographie </h4>
-            <p> Prises de vues photographique d'un objet (avant-pendant-après restauration). </p><hr>
-          <h4> Langues </h4>
-            <p><em> Français </em> : Langue maternelle</p>
-            <p><em> Anglais </em> : Lu, écrit, parlé. TOEIC Listening and Reading 2017: 625</p>
-            <p><em> Espagnol </em> : Notions</p>
-            <p><em> Italien </em> : Notions</p><hr>
-    </div>
-  </div>
-  <div class="col-9 background"><a name="EP"></a>
-    <div >
-      <h3> Expérience professionnelle </h3>
-        <h4> 2011-2017: CCE/CAD de Ribemont-sur-Ancre </h4>
-          <p> Poste de Conservatrice-Restauratrice de mobilier archéologique spécialisée métaux. </p><hr>
-        <h4> 2010: MNHN de Paris </h4>
-          <p> Conditionnement de types d'oiseaux. </p><hr>
-    </div>
-  </div>
-  <div ><a name="Stages"></a>
-    <div class="col-9 background">
-      <h3> Stages </h3>
-        <h4> Conservation-Restauration </h4>
-          <p> Métaux </p>
-          <p> Momies animales & humaines </p>
-          <p> Céramique / Verre / Moulage </p>
-          <p> Pierre / Sculpture en plâtre / os </p>
-          <p> Textile </p>
-          <p> Peintures de chevalet </p><hr>
-        <h4> Fouilles Archéologiques </h4>
-          <p> Ancienne faiencerie du 18ème-19ème siècle </p>
-          <p>Dolmens de Puyraveau, Néolithique </p>
-          <p> Hauts-Fourneaux </p>
-          <p> Nécropole Gallo-Romaine </p><hr>
-    </div>
-  </div>
-  <div ><a name="Formations"></a>
-    <div class="col-9 background">
-      <h3> Formations </h3>
-        <h4> Développement web </h4>
-          <p> 2018 : La Manu, l'Ecole des Métiers du Numérique,</br>
-              Manufacture de compétences, Amiens.
-          <p> Développeur-se de Sites et d'applications web, Préparation au Titre Professionnel "Développeur-se logiciel" RNCP 5927 niveau III, Bac+2, délivré par le Ministère chargé de l'emploi.</p><hr>
-        <h4> Conservation-Restauration </h4>
-          <p> 2008-2004 : HECR, La Chaux-de-Fonds (CH) </br>
-              Objets archéologiques et ethnographiques. </p>
-          <p> 2003-2000 : Ecole de Condé, Paris </br>
-              Oeuvres d'Art, option céramique. </p><hr>
-        <h4> Paléoanthropologie </h4>
-          <p> 2008-2007 : Département Anthropologie / Ecologie, Université de Genève </br>
-            Travaux pratiques. </p><hr>
-        <h4> Histoire de l'Art / Histoire / Histoire des religions </h4>
-          <p> 1998-1996 : Université de Poitiers </br>
-              Antique, Médiévale, Moderne et Contemporaine (HA/H),
-              Antique et Médiévale (HR)</p><hr>
-        <h4> Artistique </h4>
-          <p> 2000-1996 : Beaux-Arts, Atelier Art libre (Poitiers), Ateliers de Sèvres (Paris) </br>
-              Dessin, peinture, modelage d'après modèle vivant, sculpture, moulage, arts plastiques, arts appliqués, infographie.</p><hr>
-    </div>
-  </div>
-  <div ><a name="CursusG"></a>
-    <div class="col-9 background">
-      <h3> Cursus Général </h3>
-        <h4> 2010-2004 : HE-Arc Conservation-Restauration</h4>
-          <p>Conservatrice-Restauratrice HES orientation en objets archéologiques et ethnographiques, Mention "Bien": Sujet: <em> "Identification et mise en oeuvre d'un consolidant de surface et d'un adhésif appliqués sur deux poissons momifiés égyptiens".</em> Lieu : MNHN.</p><hr>
-        <h4> 1996-1992 : Lycée d'enseignement général technique et agricole (L.E.G.T.A.) de Venours, Rouillé (86) </h4>
-          <p> Baccalauréat Technologique série Sciences et technologies de l'Agronomie et de l'Environnement (STAE), spécialité: technologies végétales. </p><hr>
-    </div>
-  <div ><a name="Autres"></a>
-    <div class="col-9 background">
-      <h3> Autres </h3>
-        <h4> Publications </h4>
-          <p> Paillier, A. Un exemple de conservation-restauration de momies animales. La lettre de l'OCIM, n°136, juillet-août 2011, pp. 21-25.</p>
-          <p> Bou, C. et al.(co-auteur). Approche médico-légale et antthropologique par imagerie 3D d'une momie d'enfant du Musée Ethnographique de Genève. Spectra Analyse, n°312, novembre 2016, pp. 31-39. </p><hr>
-        <h4> Bénévolat </h4>
-          <p> Recherche de connexions de tessons et remontage à sec de céramiques, dépôt de fouilles archéologiques, Poitiers (86);</p>
-          <p> Animation d'atelier de création pour jeunes enfants, F.I.F.O. Ménigoute, coin junior C.P.I.E. </p><hr>
-        <h4> Centres d'intérets </h4>
-          <p> Culture , Arts, Sculpture, Nature, Photographie, Randonnée.</p><hr>
-    </div>
-  </div>
-</div>
-</div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

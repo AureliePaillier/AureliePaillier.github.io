@@ -4,36 +4,61 @@ body {
   background-size: cover;
   background-attachment: fixed;
   color:black;
+  font-family: fantasy;
 }
+
 p {
   font-size: 20px;
+  text-align: left;
 }
+
 .identite_et_contact{
-  color: blue;
-  background-color: black;
-  position: fixed;
+  color: black;
+  background-color: none;
+  position: sticky;
 }
+
 .identité {
   height: 15em;
   width: 10em;
-  margin-top: 5%;
+  margin-top: 35%;
 }
+
 .logo {
   width: 2em;
   height: 2em;
+  image-orientation: left;
 }
+
 .background {
   background-color: rgba(213,211,211,0.7);
   margin-top: 1%;
   background-size: cover;
   display: block;
-  margin-left: auto;
-  margin:right:auto;
 }
-h3, h4, p {
-  text-align: center;
+
+#text-shadow{
+  text-shadow: 2px 2px 2px lightgrey;
 }
+
+#Competences{
+  margin-top: 8%;
+}
+
+.contact{
+  text-align: left;
+}
+
+.text{
+  height: 2%;
+}
+
+h3{
+  text-align: left;
+}
+
 h4 {
-  color: blue;
+  text-align: center;
+  color: white;
   background-color: black;
 }
