@@ -7,50 +7,115 @@ body {
   font-family: fantasy;
 }
 
+.navbar  fixed-top navbar-expand-lg navbar-dark bg-dark {
+  margin-bottom: 10%;
+}
+
 p {
   font-size: 20px;
-  text-align: left;
 }
 
-.identite_et_contact{
-  color: black;
-  background-color: none;
-  position: sticky;
+
+.text {
+  font-size: 1.1em; 
 }
 
-.identité {
-  height: 15em;
-  width: 10em;
-  margin-top: 35%;
+.text-secondary{
+  font-size: 1.1em;
+     margin: 0;   
+}
+
+.name {
+  margin-top: 15%; 
+}
+
+.name-job {
+  margin: 10%;
 }
 
 .logo {
   width: 2em;
   height: 2em;
-  image-orientation: left;
 }
+
+.contact {
+    padding-top: 25%;
+}
+
+.logo-contact {
+  width: 2em;
+  height: 2em;
+  margin-top: 30%;
+}
+
+#IdContact {
+  color: black;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+#Competences {
+  margin-top: 20%;
+  margin-bottom: 20%;
+  padding: 5% 5% 5% 5%;
+}
+
+#EP {  
+  margin-top: 40%;
+  margin-bottom: 20%;
+  padding: 5% 5% 5% 5%;
+}
+
+#Formations {
+  margin-top: 40%;
+  margin-bottom: 20%;
+  padding: 5% 5% 5% 5%; 
+}
+
+#Stages {
+  margin-top: 40%;
+  margin-bottom: 20%;
+  padding: 5% 5% 5% 5%; 
+}
+
+#Autres {
+  margin-top: 40%;
+  margin-bottom: 20%;
+  padding: 5% 5% 5% 5%;
+}
+
+.progress-bar {
+  background-color: #2e3951;
+}
+
+/*.progress {
+  background-color: rbga(0,0,0,0.3);
+}*/
 
 .background {
   background-color: rgba(213,211,211,0.7);
-  margin-top: 1%;
+  margin-top: 10%;
   background-size: cover;
   display: block;
+   
 }
 
-#text-shadow{
-  text-shadow: 2px 2px 2px lightgrey;
+.background2 {
+  display: inline;
+  background-size: cover;
 }
 
-#Competences{
-  margin-top: 8%;
+.background3 {
+  background-color: rgba(213,211,211,0.7);
+  margin-top: 15%;
+  background-size: cover;
+  display: block;  
 }
 
-.contact{
-  text-align: left;
-}
-
-.text{
-  height: 2%;
+.background4{
+  background-color: rgba(213,211,211,0.3);
+  background-size: cover;
+  display: block;
 }
 
 h3{
@@ -61,4 +126,14 @@ h4 {
   text-align: center;
   color: white;
   background-color: black;
+}
+
+ul li {
+  list-style-type: circle;
+}
+
+@media screen and (max-width: 390px){
+    .name{
+        margin-top: 20%;
+    }
 }
