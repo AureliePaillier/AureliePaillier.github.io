@@ -137,3 +137,12 @@ ul li {
         margin-top: 20%;
     }
 }
+@media screen and (max-width: 577px){
+    .contact{
+        margin-top: -45%;
+        
+    }
+    #Competences, #EP, #Formations, #Stages, #Autres {
+        margin-left: 0.3%;
+    }
+}
