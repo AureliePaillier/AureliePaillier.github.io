@@ -132,29 +132,18 @@ ul li {
   list-style-type: circle;
 }
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 577px){
     .name{
         margin-top: 20%;
     }
-    body{   
-        background-image: url("../IMG/back.png");
-        background-repeat: no-repeat;
-        background-size: cover;              
-    } 
-}
-@media screen and (max-width: 577px){
     .contact{
-        margin-top: -45%;
-        
+        margin-top: -45%;        
     }
     #Competences, #EP, #Formations, #Stages, #Autres {
         margin-left: 0.3%;
     }
     body{   
         background-image: url("../IMG/back.png");
-        background-repeat: no-repeat;
         background-size: cover;
-        min-height: 533px;
-        
     } 
 }
