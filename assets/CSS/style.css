@@ -132,12 +132,20 @@ ul li {
   list-style-type: circle;
 }
 
-@media screen and (max-width: 577px){
+@media all and (max-width: 390px){
+   
+    body{   
+        background-image: url("../IMG/back.png");       
+        background-size: cover;              
+    } 
+}
+@media all and (max-width: 577px){
     .name{
         margin-top: 20%;
     }
     .contact{
-        margin-top: -45%;        
+        margin-top: -45%;
+        
     }
     #Competences, #EP, #Formations, #Stages, #Autres {
         margin-left: 0.3%;
