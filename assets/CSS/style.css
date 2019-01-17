@@ -132,7 +132,7 @@ ul li {
   list-style-type: circle;
 }
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 577px){
     .name{
         margin-top: 20%;
     }
