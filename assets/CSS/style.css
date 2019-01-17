@@ -1,7 +1,7 @@
 body {
   background-image: url("../IMG/back.png");
-  background-repeat: no-repeat;
-  background-size: cover;  
+  background-size: cover;
+  background-attachment: fixed;
   color:black;
   font-family: fantasy;
 }
@@ -134,14 +134,19 @@ ul li {
 @media all and (max-width: 390px){
     .name{
         margin-top: 20%;
-    }    
+    } 
+     body{
+        background-attachment: scroll;
+    }
 }
 @media all and (max-width: 577px){
     .contact{
-        margin-top: -45%;
-        
+        margin-top: -45%;       
     }
     #Competences, #EP, #Formations, #Stages, #Autres {
         margin-left: 0.3%;
-    }    
+    } 
+    body{
+        background-attachment: scroll;
+    }
 }
