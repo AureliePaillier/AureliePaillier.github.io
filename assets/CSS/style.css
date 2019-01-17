@@ -1,8 +1,7 @@
 body {
   background-image: url("../IMG/back.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background-size: cover;  
   color:black;
   font-family: fantasy;
 }
@@ -133,25 +132,16 @@ ul li {
 }
 
 @media all and (max-width: 390px){
-   
-    body{   
-        background-image: url("../IMG/back.png");       
-        background-size: cover;              
-    } 
-}
-@media all and (max-width: 577px){
     .name{
         margin-top: 20%;
-    }
+    }    
+}
+@media all and (max-width: 577px){
     .contact{
         margin-top: -45%;
         
     }
     #Competences, #EP, #Formations, #Stages, #Autres {
         margin-left: 0.3%;
-    }
-    body{   
-        background-image: url("../IMG/back.png");
-        background-size: cover;
-    } 
+    }    
 }
